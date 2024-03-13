@@ -2,11 +2,11 @@ import 'package:chat_app/screen/chat_detail_page.dart';
 import 'package:flutter/material.dart';
 
 class ChatUsersList extends StatefulWidget {
-  String text;
-  String secondaryText;
-  String image;
-  String time;
-  bool isMessageRead;
+  final String text;
+  final String secondaryText;
+  final String image;
+  final String time;
+  final bool isMessageRead;
   ChatUsersList(
       {required this.text,
       required this.secondaryText,
